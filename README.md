@@ -1,4 +1,6 @@
 # matt &mdash; Basic weather
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholas-b-carter/matt.svg)](https://greenkeeper.io/)
 A sample project built with [Init.ai](https://init.ai). This is based on the [basic weather](http://docs.init.ai/docs/tutorial-2-basic-weather-app) tutorial.
 
 Make sure to read the [Overview](http://docs.init.ai/docs) to familiarize yourself with the Init.ai platform.
