@@ -4,7 +4,9 @@
   "description": "matts bot",
   "main": "behavior/scripts/index.js",
   "scripts": {
-    "start": "initai-dev-server"
+    "start": "initai-dev-server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "<my-name> <<my-email-address>>",
   "license": "UNLICENSED",
@@ -12,6 +14,8 @@
   "dependencies": {
     "initai-dev-server": "^0.4.8",
     "initai-node": "~0.0.7",
-    "request": "^2.74.0"
-  }
+    "request": "^2.74.0",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
